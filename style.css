@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+    color:white;
+
+}
+
+/* header {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.name {
+    color:#b74b4b;
+    font-size:3rem ;
+    margin-top: 30px;
+    margin-bottom:5px;
+    margin-left:-10px;
+}
+
+nav {
+    font-size:1.8rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#home {
+    color:white;
+    margin-top: 20px;
+    margin-bottom:5px;
+    margin-left:190px;
+
+}
+#services {
+    color:white;
+    margin-top: 20px;
+    margin-bottom:5px;
+}
+#skills{
+    color:white;
+    margin-top: 20px;
+    margin-bottom:5px;
+}
+#education{
+    color:white;
+    margin-top: 20px;
+    margin-bottom:5px;
+}
+#experience{
+    color:white;
+    margin-top: 20px;
+    margin-bottom:5px;
+}
+#contact{
+    color:white;
+    margin-top: 20px;
+    margin-bottom:5px;
+}
+
+img{
+    height:600px;
+    float:left;
+    border-radius: 50%;
+    width: 32vw;
+    cursor: pointer;
+    margin-left:30px;
+    margin-top:-40px;
+}
+
+
+h1 {
+    display: inline-block;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top:20px;
+    position:left;
+    margin-left:60px;
+}
+
+#kallol {
+    color: #b74b4b;
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    position:relative;
+    left:60px;
+}
+
+#web {
+     color: #b74b4b;
+}
+
+#lorem {
+    font-size: 1.6rem;
+    position:relative;
+    left:60px;
+}
+
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid #b74b4b;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: #b74b4b;
+    
+}
+
+.social-icons a:hover{
+    color: black;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #b74b4b;
+    box-shadow: 0  0 25px #b74b4b;
+}
+
+#button{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #b74b4b;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #b74b4b;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+#button:hover{
+    transform: scale3d(1.03);
+    background-color: #b74b4b;
+    color: black;
+    box-shadow: 0 0 25px #b74b4b;
+}
