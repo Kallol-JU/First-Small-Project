@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style-form.css">
+</head>
+<body>
+
+    <header>
+        <h1>Apna College</h1>
+        <br>
+        <p class="feedback">Feedback Form using HTML and CSS</p>
+        <br>
+    </header>
+    <main>
+        <div class="form-holder">
+        <form action="/action.php">
+            <p class="time"> ⌛ It only takes two minutes</p>
+            <div>
+            <label for="name" class="name">👤 Name</label>
+            <br>
+            <input id="name" type="text" name="name" class="firstbox">
+             </div>
+             <br>
+             <div>
+                <label for="mail" class="mail"> 📧 Email Address</label>
+                <br>
+                <input id="mail" type="email" name="email" class="secondbox">
+             </div>
+             <br>
+             <div>
+                <label for="ph" class="phone">📞 Phone Number</label>
+                <br>
+                <input id="ph" type="number" class="thirdbox">
+             </div>
+             <br>
+             <label class="satisfy">😇 Do you satisfy with our service?</label>
+             <br>
+             <input type="radio" id="satisfy" value="Yes" name="?Satisfy" class="yes">
+             <label for="satisfy">Yes</label>
+             <input type="radio" id="sat" value="No" name="?Satisfy" class="no">
+             <label for="sat">No</label>
+             <br>
+             <label for="suggestions" class="suggestion">💬 Write your suggestions :</label>
+             <br>
+             <textarea rows="5" cols="40" id="suggestions" name="suggestion" class="fourthbox"></textarea>
+             <br><br>
+             <button type="submit">Submit</button>
+        </form>
+        </div>
+    </main>
+</body>
+</html>
