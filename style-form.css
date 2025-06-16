@@ -1,0 +1,102 @@
+body {
+    background-color: yellow;
+     
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color:black;
+    margin-top: 10px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font: 800;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.form-holder {
+    background-color: cornsilk;
+    width: 400px;
+    height: 500px;
+    border-radius: 5%;
+}
+
+.time {
+    margin-left:80px;
+    font-size: 20px;
+}
+
+.name {
+    margin-left:40px;
+}
+
+.firstbox{
+    margin-left:40px;
+    margin-top:9px;
+    border-radius: 5%;
+}
+
+.mail {
+    margin-left:39px;
+}
+
+.secondbox{
+    margin-left:40px;
+    margin-top:9px;
+    border-radius: 5%;
+}
+
+.phone {
+    margin-left: 40px;
+}
+
+.thirdbox{
+    margin-left:40px;
+    margin-top:9px;
+    border-radius: 5%;
+}
+
+.satisfy {
+    margin-left: 40px;
+}
+
+.yes {
+    margin-left: 46px;
+    margin-top: 11px;
+}
+
+.no {
+    margin-left: 46px;
+    margin-top: 11px;
+}
+
+.suggestion {
+    margin-left:40px;
+}
+
+.fourthbox {
+    margin-left:40px;
+    margin-top:9px;
+    border-radius: 4%;
+}
+
+button {
+    background-color: rgb(253, 253, 101);
+    width:200px;
+    height:30px;
+    border:2px solid black;
+    border-radius: 4%;
+    margin-left: 100px;
+    font-size:20px;
+}
